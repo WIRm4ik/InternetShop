@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Lato";
 }
 
 .header{
@@ -26,6 +27,21 @@
 }
 .main1{
     
+}
+
+.fetured_items{
+    margin-top: 96px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   margin-bottom: 47px;
+}
+.text_fetured_items span{
+    font-size: 14px;
+    color: #9F9F9F;
+    width: 336px;
 }
 .hero_center{
     width: 1140px;
@@ -63,40 +79,104 @@
 
 }
 .offer_row{
-   
     flex-wrap: wrap;
     display: flex;
     gap: 30px;
-     margin-bottom: 30px;
+    margin-bottom: 30px;
 }
-.offer_low1{
+
+.fetured_items_center{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.fetured_items_row{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.row1, .row2, .row3{
+    
+width: 360px;
+height: 420px;
+}
+.row1{
+    background-image: url(img/man2.png);
+}
+.row2{
+background-image: url(img/man3.png);
+}
+.row3{
+background-image: url(img/women.png);
+}
+.offer_low1, .offer_low2,.offer_low3{
+    color: #E1E1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
     width: 360px;
+    font-family: Lato;
     height: 260px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/l1.png) ;
 }
 .offer_low2{
-    width: 360px;
-    height: 260px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/l2.png) ;
 }
 .offer_low3{
-    width: 360px;
-    height: 260px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/l3.png) ;
 }
+
 .offer_big{
+    color: #E1E1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
     width: 1140px;
+    font-family: Lato;
     height: 190px;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/big.png);
 }
+
 
 .section__feature{
     margin-top: 96px;
     height: 341px;
     background: #222222;
 }
+.offer1_txt span{
+    color: #F16D7F;
+    font-size: 24px;
+}
+.offer4_txt span{
+    color: #F16D7F;
+    font-size: 24px;
+}
+.offer2_txt span{
+    color: #F16D7F;
+    font-size: 24px;
+}
+.offer3_txt span{
+    color: #F16D7F;
+    font-size: 24px;
+}
+.feature_text1{
+    font-size: 48px;
+    font-weight: 900;
+}
 .hero_p_big{
     font-size: 48px;
+    font-weight: 900;
+}
+.feature_text1{
+    font-size: 30px;
     font-weight: 900;
 }
 .hero_p_small{
