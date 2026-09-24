@@ -108,10 +108,11 @@
 .product_card img{
     width: 360px;
     height: 420px;
-    object-fit: cover;
 }
 
-
+.mini_txt_for_feature3{
+    margin-top: 50px
+}
 
 .product_info span{
     font-size: 14px;
@@ -145,6 +146,7 @@
     margin-top: 48px;
     margin-bottom: 96px;
 }
+
 .txtspam{
     margin-bottom: 12.65px;
 }
@@ -192,9 +194,34 @@ background-image: url(img/women.png);
     height: 190px;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/big.png);
 }
-
-
+.txt_for_feature1,.txt_for_feature2,.txt_for_feature3{
+    color: white;
+    display: flex;
+    font-size: 19.96px;
+    margin-top: 19.07px;
+}
+.png1,.png2,.png3{
+    margin-top: 103px;
+}
+.font_pngs{
+    display: flex;
+    font-size: 19.96px;
+    width: 117;
+}
+.mini_txt_for_feature1{
+   
+}
+.png_row{
+    width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
 .section__feature{
+    
     margin-top: 96px;
     height: 341px;
     background: #222222;
