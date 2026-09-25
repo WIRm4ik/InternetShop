@@ -300,6 +300,23 @@
 .footer__subscribe {
     height: 448px;
     background: #E1E1E1;
+    background-image: 
+    url(img/background.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+}
+.woman_avatar_png{
+    margin-top: 92px;
+    margin-left: 752.71px;
+}
+.woman_avatar_txt{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-right: 752px;
+    margin-top: 30px;
+    font-size: 20px;
 }
 
 .footer__bottom {
